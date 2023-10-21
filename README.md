@@ -17,15 +17,13 @@ pip install requests
 
 **Developer Tools**: Analyzing packets to fetch dynamic or encrypted webpage information
 
-<br>
-
-> Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document
+`1) Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document`
 
 <img src="./images/1.png" width="500">
 
 <br>
 
-> Right-click and select 'Inspect' to locate the link method for the 'Download' button: downLoadFile()
+`2) Right-click and select 'Inspect' to locate the link method for the 'Download' button: downLoadFile()`
 
 <img src="./images/2.png" width="500">
 
