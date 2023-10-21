@@ -21,7 +21,7 @@ pip install requests
 
 <img src="./images/1.png" width="700">
 
-`2) Right-click and select 'Inspect' to locate the link method for the 'Download' button: **downLoadFile()**`
+`2) Right-click and select 'Inspect' to locate the link method for the 'Download' button: <strong><code>downLoadFile()</code></strong>`
 
 <img src="./images/2.png" width="700">
 
@@ -29,20 +29,20 @@ pip install requests
 
 <img src="./images/3.png" width="700">
 
-`4) Right-click and choose ‘Open in Sources panel’. By setting breakpoints and debugging, you can directly find the download link after clicking the 'Download' button: https://wb.flk.npc.gov.cn/flfg/WORD/c794339f883a4899b635f6f1d4a4c5b8.docx`
+`4) Right-click and choose ‘Open in Sources panel’. By setting breakpoints and debugging, you can directly find the download link after clicking the 'Download' button: <strong><code>https://wb.flk.npc.gov.cn/flfg/WORD/c794339f883a4899b635f6f1d4a4c5b8.docx</code></strong>`
 
 <img src="./images/4.png" width="700">
 
-`5) Search for the key term c794339f883a4899b635f6f1d4a4c5b8 within the 'Network' tab. This will allow you to directly locate the data packet for the document, which includes the document title and a portion of the download link`
+`5) Search for the key term <strong><code>c794339f883a4899b635f6f1d4a4c5b8</code></strong> within the 'Network' tab. This will allow you to directly locate the data packet for the document, which includes the document title and a portion of the download link`
 
 <img src="./images/5.png" width="700">
 
-`6) From the 'Headers' section, we know that this data packet is sending a POST request to: https://flk.npc.gov.cn/api/detail. From the 'Payload' section, the data parameter that needs to be sent is the document ID: ZmY4MDgxODE4YTIxZGMxMzAxOGE1MTMyOGUwYzBjM2M%3D`
+`6) From the 'Headers' section, we know that this data packet is sending a POST request to: https://flk.npc.gov.cn/api/detail. From the 'Payload' section, the data parameter that needs to be sent is the document ID: <strong><code>ZmY4MDgxODE4YTIxZGMxMzAxOGE1MTMyOGUwYzBjM2M%3D</code></strong>`
 
 <img src="./images/6.png" width="700">
 
 <br>
 
 <img src="./images/7.png" width="700">
-·Therefore, by collecting all the document IDs and sending POST requests, you can achieve bulk downloads.·
+`Therefore, by collecting all the document IDs and sending POST requests, you can achieve bulk downloads.`
 
