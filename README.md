@@ -7,7 +7,7 @@ In this project, I share my internship records at Fujian Zhimao Law Firm from Au
 - Pycharm
 
 # Modules Used
-**requests**: a popular Python library for making HTTP requests
+**requests**: A popular Python library for making HTTP requests
 ```bash
 pip install requests
 ```
@@ -15,7 +15,7 @@ pip install requests
 # Data Source Analysis
 **The scraped website URL**: https://flk.npc.gov.cn/fl.html
 
-**Developer Tools**：analyzing packets to fetch dynamic or encrypted webpage information
+**Developer Tools**：Analyzing packets to fetch dynamic or encrypted webpage information
 
-  Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document
+> Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document
 
