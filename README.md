@@ -18,5 +18,5 @@ pip install requests
 **Developer Tools**：Analyzing packets to fetch dynamic or encrypted webpage information
 
 > Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document
-![](./images/1)
+![](./images/1.png)
 
