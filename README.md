@@ -17,28 +17,28 @@ pip install requests
 
 **Developer Tools**: Analyzing packets to fetch dynamic or encrypted webpage information
 
-- Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document
+> Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document
 
 <img src="./images/1.png" width="500">
 
-- Right-click and select 'Inspect' to locate the link method for the 'Download' button: downLoadFile()
+> Right-click and select 'Inspect' to locate the link method for the 'Download' button: downLoadFile()
 
-![](./images/2.png)
+<img src="./images/2.png" width="500">
 
 > Refresh the webpage. Search for downLoadFile() within the 'Network' tab to locate the corresponding JS code
 
-![](./images/3.png)
+<img src="./images/3.png" width="500">
 
 > Right-click and choose ‘Open in Sources panel’. By setting breakpoints and debugging, you can directly find the download link after clicking the 'Download' button: https://wb.flk.npc.gov.cn/flfg/WORD/c794339f883a4899b635f6f1d4a4c5b8.docx
 
-![](./images/4.png)
+<img src="./images/4.png" width="500">
 
 > Search for the key term c794339f883a4899b635f6f1d4a4c5b8 within the 'Network' tab. This will allow you to directly locate the data packet for the document, which includes the document title and a portion of the download link
 
-![](./images/5.png)
+<img src="./images/5.png" width="500">
 
 > From the 'Headers' section, we know that this data packet is sending a POST request to: https://flk.npc.gov.cn/api/detail. From the 'Payload' section, the data parameter that needs to be sent is the document ID: ZmY4MDgxODE4YTIxZGMxMzAxOGE1MTMyOGUwYzBjM2M%3D
 
-![](./images/6.png)
-![](./images/7.png)
+<img src="./images/6.png" width="500">
+<img src="./images/7.png" width="500">
 
