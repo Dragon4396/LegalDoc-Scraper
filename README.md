@@ -17,7 +17,7 @@ pip install requests
 
 **Developer Tools**: Analyzing packets to fetch dynamic or encrypted webpage information
 
-`1) Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document`
+`1) Navigate to the first item on the first page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document`
 
 <img src="./images/1.png" width="700">
 
@@ -25,7 +25,7 @@ pip install requests
 
 <img src="./images/2.png" width="700">
 
-`3) Refresh the webpage. Search for downLoadFile() within the 'Network' tab to locate the corresponding JS code`
+`3) Refresh the webpage. Search for downLoadFile() within the 'Network' panel to locate the corresponding JavaScript code`
 
 <img src="./images/3.png" width="700">
 
