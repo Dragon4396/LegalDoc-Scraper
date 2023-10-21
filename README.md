@@ -19,7 +19,7 @@ pip install requests
 
 - Navigate to the first title on the page. On the right, there's a 'Download' button. Clicking it will automatically initiate the download for the corresponding document
 
-![](./images/1.png)
+<img src="./images/1.png" width="200">
 
 - Right-click and select 'Inspect' to locate the link method for the 'Download' button: downLoadFile()
 
