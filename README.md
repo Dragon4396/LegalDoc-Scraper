@@ -21,7 +21,7 @@ pip install requests
 
 <img src="./images/1.png" width="700">
 
-`2) Right-click and select 'Inspect' to locate the link method for the 'Download' button: downLoadFile()`
+`2) Right-click and select 'Inspect' to locate the link method for the 'Download' button: **downLoadFile()**`
 
 <img src="./images/2.png" width="700">
 
@@ -44,4 +44,5 @@ pip install requests
 <br>
 
 <img src="./images/7.png" width="700">
+·Therefore, by collecting all the document IDs and sending POST requests, you can achieve bulk downloads.·
 
