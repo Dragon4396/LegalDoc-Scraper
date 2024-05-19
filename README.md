@@ -1,5 +1,5 @@
 # LegalDoc-Scraper
-In this project, I will share my internship records at Fujian Zhimao Law Firm from August to October 2023. By utilizing Python web scraping in conjunction with JavaScript reverse engineering, I was able to retrieve and download the required legal documents in bulk, significantly increasing work efficiency by several multiples.
+During my internship at Fujian Zhimao Law Firm from August to October 2023, I enhanced our efficiency significantly by developing a solution to automate the retrieval and download of legal documents. By combining Python web scraping with JavaScript reverse engineering, I was able to handle bulk document processing, which sped up our workflow tremendously.
 
 # Environment Used
 
